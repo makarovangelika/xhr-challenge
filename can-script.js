@@ -181,7 +181,7 @@ function initialize(products) {
         let objectURL = URL.createObjectURL(blob);
         showProduct(objectURL, product);
       } else {
-        console.log('Network request for "' + product.name + '" image failed with response ' + request.status + ': ' + request.statusText))
+        console.log('Network request for "' + product.name + '" image failed with response ' + request.status + ': ' + request.statusText);
       }
     }
     request.send();
